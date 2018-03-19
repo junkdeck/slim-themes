@@ -1,0 +1,44 @@
+# tachi theme for SLiM
+# by junkdeck
+
+# Messages (ie: shutdown)
+msg_color               #0097d7
+msg_font                Terminus:size=18:bold:dpi=75
+msg_x                   50%
+msg_y                   10%
+welcome_x				-1
+welcome_y				-1
+
+# session list 
+session_color           #0097d7
+session_font            Terminus:size=18:bold:dpi=75
+session_x               50%
+session_y               10%
+
+# valid values: stretch, tile
+background_style        tile
+background_color        #051525
+
+# Use single input box for user/pass
+input_pass_x            -1
+input_pass_y            -1
+
+# Input controls
+input_panel_x           50%
+input_panel_y           90%
+# username input ( absolute values only! )
+input_name_x            256
+input_name_y            81
+input_font          	Terminus:size=32:bold:dpi=96
+input_color             #051525
+
+# Username / password request
+username_font          	Terminus:size=12:dpi=96
+username_color        	#0097d7
+username_x              50%
+username_y              40%
+password_x              50%
+password_y              40%
+
+username_msg            U S E R / /
+password_msg            P A S S / /
